@@ -1,0 +1,25 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Machine learning artifacts
+ml/artifacts/
+*.joblib
+*.pkl
+
+# dbt generated files
+churn_dbt/target/
+churn_dbt/dbt_packages/
+churn_dbt/logs/
+logs/
+
+# Editor and operating system
+.DS_Store
+.vscode/
