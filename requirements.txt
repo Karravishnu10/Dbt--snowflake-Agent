@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+snowflake-connector-python[pandas]
+python-dotenv
+anthro
+pic
+joblib
